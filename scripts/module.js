@@ -17,7 +17,7 @@ Hooks.once('init', async function() {
 Hooks.once('ready', async function() {
 var div = document.createElement("div");
 div.id = "infopanel";
-div.style.minwidth = "200px";
+div.style.width = "300px";
 div.style.height = "auto";
 div.style.backgroundImage = "bg.jpg";
 div.style.textAlign = "center";
@@ -28,7 +28,6 @@ div.style.marginLeft = "auto";
 div.style.marginRight = "100px";
 div.style.border= "3px solid brown";
 div.innerHTML = game.settings.get('infopanel', 'infopanel');
-div.onclick=console.log("TEST");
 document.getElementById("ui-top").appendChild(div);
 });
 
