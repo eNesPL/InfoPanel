@@ -17,7 +17,7 @@ Hooks.once('init', async function() {
 Hooks.once('ready', async function() {
 var div = document.createElement("div");
 div.id = "infopanel";
-div.style.width = "200px";
+div.style.minwidth = "200px";
 div.style.height = "auto";
 div.style.backgroundImage = "bg.jpg";
 div.style.textAlign = "center";
