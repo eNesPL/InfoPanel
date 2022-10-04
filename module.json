@@ -5,10 +5,6 @@
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 8,
-    "verified": 9
-  },
   "authors": [
     {
       "name": "eNes"
