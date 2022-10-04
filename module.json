@@ -1,19 +1,13 @@
 {
-  "id": "InfoPanel",
-  "title": "Info Panel",
-  "description": "",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
-  "authors": [
-    {
-      "name": "eNes"
-    }
-  ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
+   "name": "InfoPanel",
+   "title": "Info Panel",
+   "description": "Info Panel",
+   "author": "eNes",
+   "version": "1.1",
+   "library": "false",
+   "manifestPlusVersion": "1.0.0",
+   "minimumCoreVersion": "0.9",
+   "compatibleCoreVersion": "0.9",
   "esmodules": [
     "scripts/module.js"
   ],
