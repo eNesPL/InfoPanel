@@ -1,0 +1,49 @@
+/** 
+ * Displays dialog for quickly set Sandbox DC
+ * @Author: Ramses800
+ */
+let html = `
+<script>
+function setDC(data)
+{
+  game.settings.set('infopanel', 'infopanel', data);
+}
+</script>
+<style>
+.btnDC{
+  height:35px;
+  width:100%;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px groove #c9c7b8;
+  line-height: 28px;
+  margin: 0 5px 0 0;
+}
+.btnDC:hover {
+  box-shadow: 0 0 5px red;
+}
+</style>
+<p>Set text</p>
+<form>
+<div>
+<input id="test" class="btnDC" onchange="setDC(value)">
+</div>
+</form>
+<p>
+`;
+
+
+let d = new Dialog({
+ title: "Set text",
+ content: html,
+ buttons: {
+  btnClose: {   
+   label: "Close",
+   callback: () => console.log("Close")
+  }
+ },
+ default: "btnClose"
+});
+d.options.width = 100;
+d.position.width = 100;
+d.render(true);

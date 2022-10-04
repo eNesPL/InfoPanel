@@ -1,0 +1,9 @@
+#infopanel{
+    background-image: url("bg.jpg");
+    max-width: "100px";
+    width: "100px";
+    height: "50px";
+    color: "white";
+    margin-Left: "auto";
+    margin-Right: "100px";
+}
